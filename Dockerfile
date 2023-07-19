@@ -20,7 +20,6 @@ RUN yarn install
 COPY . .
 
 #expose port used by socket hub
-EXPOSE 80
 EXPOSE 3000
 
 #Run front end
